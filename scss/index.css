@@ -1,0 +1,98 @@
+form {
+  display: inline-block;
+  margin: 1.5em 1.5em;
+  float: right;
+  width: 30%;
+  position: absolute;
+  top: 50px;
+  right: 15px; }
+
+#menuBtn {
+  display: none; }
+
+.hideMenu {
+  -ms-transform: translate(0px, -100%);
+  /* IE 9 */
+  -webkit-transform: translate(0px, -100%);
+  /* Safari */
+  transform: translate(0px, -100%);
+  transition: .45s; }
+
+@media screen and (max-width: 560px) {
+  #menuBtn {
+    display: inline-block; }
+
+  .search {
+    transition: .45s;
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    position: fixed;
+    display: block;
+    z-index: 100;
+    color: white;
+    top: 50px; }
+    .search form {
+      top: 50px;
+      float: left;
+      width: 75%;
+      margin: 1em; } }
+.galleryContainer {
+  background-color: grey;
+  width: 65%;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: -10px; }
+  @media sceen and (max-width: 450px) {
+    .galleryContainer {
+      left: 10px;
+      overflow-x: scroll;
+      width: 100%; } }
+  .galleryContainer .gallery {
+    height: 85vh;
+    position: inherit;
+    list-style: none;
+    display: block;
+    overflow-x: scroll; }
+    .galleryContainer .gallery li {
+      border-radius: 5px;
+      background-color: #efefef;
+      width: 270px;
+      height: 400px;
+      display: inline-block;
+      margin: 10px;
+      padding: 10px;
+      border: 3px solid #d8d8d8;
+      overflow-y: auto;
+      align-content: center; }
+      .galleryContainer .gallery li img {
+        display: block;
+        margin: 10px auto 5px auto; }
+      .galleryContainer .gallery li div > p:nth-child(2) {
+        display: none; }
+      .galleryContainer .gallery li p {
+        background-color: none;
+        margin: 5px 15px; }
+      .galleryContainer .gallery li .description p {
+        overflow: auto; }
+        .galleryContainer .gallery li .description p a img {
+          display: none; }
+
+h6 {
+  position: absolute;
+  bottom: 5px;
+  left: 20%;
+  right: 20%; }
+
+nav {
+  position: fixed;
+  top: 0px;
+  z-index: 150;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 55px;
+  padding: .5em;
+  background-color: black; }
+
+/*# sourceMappingURL=index.css.map */

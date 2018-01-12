@@ -1,0 +1,16 @@
+{
+  "name": "flickr_app",
+  "version": "1.0.0",
+  "description": "A Gallery app using the Flickr public API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"watch": "node-sass -watch './public/scss' -o ./scss"
+  },
+  "keywords": [
+    "Gallery",
+    "Pictures"
+  ],
+  "author": "Jackie Robson",
+  "license": "ISC"
+}

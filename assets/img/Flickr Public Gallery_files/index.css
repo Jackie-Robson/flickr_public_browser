@@ -1,0 +1,72 @@
+form {
+  display: inline-block;
+  margin: 1.5em 1.5em;
+  float: right;
+  width: 40%;
+  position: absolute;
+  top: 50px;
+  right: 15px; }
+
+@media screen and (max-width: 560px) {
+  .hide {
+    display: none; }
+
+  .search {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: block;
+    z-index: 100;
+    color: white;
+    top: 50px; }
+    .search form {
+      top: 50px;
+      float: left;
+      width: 75%;
+      margin: 1em; } }
+.galleryContainer {
+  width: 60%;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: -10px; }
+  @media sceen and (max-width: 450px) {
+    .galleryContainer {
+      left: 10px;
+      overflow-x: scroll; } }
+  .galleryContainer .gallery {
+    max-width: 100%;
+    height: 700px;
+    position: inherit;
+    list-style: none;
+    display: block;
+    overflow-x: scroll; }
+    .galleryContainer .gallery li {
+      width: 270px;
+      max-height: 400px;
+      display: inline-block;
+      margin: 10px;
+      border: 1px solid black;
+      overflow-y: scroll;
+      align-content: center; }
+      .galleryContainer .gallery li p {
+        margin: 5px 15px; }
+
+nav {
+  position: fixed;
+  top: 0px;
+  z-index: 150;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 55px;
+  padding: .5em;
+  background-color: black; }
+  nav img {
+    height: 40px;
+    cursor: pointer;
+    display: none; }
+    @media screen and (max-width: 560px) {
+      nav img {
+        display: block; } }
+
+/*# sourceMappingURL=index.css.map */
